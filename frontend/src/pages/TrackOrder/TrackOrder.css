@@ -1,0 +1,45 @@
+.track-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: 10px 0;
+}
+
+.progress-step {
+  text-align: center;
+  width: 20%;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.circle.active {
+  background: #28a745;
+}
+
+.active-text {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.map-section {
+  margin-top: 30px;
+}
